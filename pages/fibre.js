@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '/styles/Fibre.module.css'
 import Navbar from "../components/menu"
 
 export default function Fibre() {
@@ -18,9 +18,6 @@ export default function Fibre() {
         </h1>
         <p><Navbar /></p>
         <p>
-        <Image src="/test.png" alt="MWEB" width={200} height={200} />
-        <img src="/test.png" width={200} height={200} />
-        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -56,6 +53,9 @@ export default function Fibre() {
             </p>
           </a>
         </div>
+          <Image src="/test.png" alt="MWEB" width={200} height={200} />
+                <img src="/test.png" alt="MWEB" width={200} height={200} />
+                </p>
       </main>
 
       <footer className={styles.footer}>

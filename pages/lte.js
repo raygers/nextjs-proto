@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Navbar from "../components/menu"
+import styles from '/styles/Lte.module.css'
 
-export default function Fibre() {
+export default function Lte() {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,10 +17,6 @@ export default function Fibre() {
           Welcome to <a href="https://nextjs.org">LTE!</a>
         </h1>
         <p><Navbar /></p>
-        <p>
-        <Image src="/test.png" alt="MWEB" width={200} height={200} />
-        <img src="/test.png" width={200} height={200} />
-        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -56,6 +52,10 @@ export default function Fibre() {
             </p>
           </a>
         </div>
+      <p>
+          <Image src="/test.png" alt="MWEB" width={200} height={200} />
+          <img src="/test.png" width={200} height={200} />
+        </p>
       </main>
 
       <footer className={styles.footer}>
