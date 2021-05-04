@@ -14,8 +14,18 @@ export default function Navbar() {
                 </a>
             </li>
             <li>
+                <a href="/fibre/product">
+                    Fibre Product Page
+                </a>
+            </li>
+            <li>
                 <a href="/lte">
                     LTE
+                </a>
+            </li>
+            <li>
+                <a href="/lte/product">
+                    LTE Product Page
                 </a>
             </li>
             <li>
