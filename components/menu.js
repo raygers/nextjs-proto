@@ -4,6 +4,11 @@ export default function Navbar() {
     return (
         <ul>
             <li>
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            <li>
                 <a href="/coverage">
                     Coverage
                 </a>
@@ -58,6 +63,15 @@ export default function Navbar() {
             </li>
             <li>
                 <a href="/showmax">Showmax</a>
+            </li>
+            <li>
+                <a href="/help-centre/home">Help Centre</a>
+            </li>
+            <li>
+                <a href="/user-login">Login</a>
+            </li>
+            <li>
+                <a href="/webmail">Email</a>
             </li>
         </ul>
     );
