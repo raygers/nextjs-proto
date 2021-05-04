@@ -14,10 +14,9 @@ export default function Fibre() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Fibre!</a>
+          Welcome to <a href="https://nextjs.org">Fibre Category Page!</a>
         </h1>
         <p><Navbar /></p>
-        <p>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -53,9 +52,10 @@ export default function Fibre() {
             </p>
           </a>
         </div>
+        <p>
           <Image src="/test.png" alt="MWEB" width={200} height={200} />
-                <img src="/test.png" alt="MWEB" width={200} height={200} />
-                </p>
+           <img src="/next_images/test.png" alt="MWEB" width={200} height={200} />
+          </p>
       </main>
 
       <footer className={styles.footer}>

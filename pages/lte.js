@@ -14,7 +14,7 @@ export default function Lte() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">LTE!</a>
+          Welcome to <a href="https://nextjs.org">LTE Category Page!</a>
         </h1>
         <p><Navbar /></p>
 
@@ -54,7 +54,7 @@ export default function Lte() {
         </div>
       <p>
           <Image src="/test.png" alt="MWEB" width={200} height={200} />
-          <img src="/test.png" width={200} height={200} />
+          <img src="/next_images/test.png" width={200} height={200} />
         </p>
       </main>
 
