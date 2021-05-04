@@ -1,5 +1,4 @@
 import {Component} from "react";
-import Image from "next/Image";
 
 export default function Navbar() {
     return (
