@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Navbar from "../components/menu"
 
 export default function Fibre() {
   return (
@@ -15,6 +16,7 @@ export default function Fibre() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Fibre!</a>
         </h1>
+        <p><Navbar /></p>
         <p>
         <Image src="/test.png" alt="MWEB" width={200} height={200} />
         <img src="/test.png" width={200} height={200} />
