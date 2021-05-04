@@ -15,6 +15,9 @@ export default function Fibre() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Fibre!</a>
         </h1>
+        <p>
+        <Image src="/test.png" alt="MWEB" width={200} height={200} />
+        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
