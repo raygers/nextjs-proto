@@ -15,6 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">MWEB Home Page - Story Branch2!</a>
         </h1>
+        <p>Story 3</p>
 
         <p><Navbar /></p>
 
