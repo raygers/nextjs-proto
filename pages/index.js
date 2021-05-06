@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">MWEB Home Page - Branch from dev!</a>
+          Welcome to <a href="https://nextjs.org">MWEB Home Page - Story Branch2!</a>
         </h1>
 
         <p><Navbar /></p>
