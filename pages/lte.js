@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from "../components/menu"
 import styles from '/styles/Lte.module.css'
 
@@ -53,7 +52,7 @@ export default function Lte() {
           </a>
         </div>
       <p>
-          <Image src="/test.png" alt="MWEB" width={200} height={200} />
+          <img src="/test.png" alt="MWEB" width={200} height={200} />
           <img src="/next_images/test.png" width={200} height={200} />
         </p>
       </main>
