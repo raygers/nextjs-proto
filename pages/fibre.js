@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '/styles/Fibre.module.css'
 import Navbar from "../components/menu"
 
@@ -53,7 +52,7 @@ export default function Fibre() {
           </a>
         </div>
         <p>
-          <Image src="/test.png" alt="MWEB" width={200} height={200} />
+          <img src="/test.png" alt="MWEB" width={200} height={200} />
            <img src="/next_images/test.png" alt="MWEB" width={200} height={200} />
           </p>
       </main>
@@ -66,7 +65,7 @@ export default function Fibre() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
